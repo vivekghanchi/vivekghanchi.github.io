@@ -1,0 +1,53 @@
+.navul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 3;
+  background-color: black;
+  box-shadow: 1px 2px 25px #000000;
+  /* background-blend-mode: exclusion; */
+  /* color: white; */
+  /* margin-bottom: 20px; */
+  /*#0e0e1e*/
+}
+
+.navli {
+  float: right;
+}
+.navlihome a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  background-color:#e83b35;
+}
+
+.navli a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+li a:hover{
+  background-color:#e83b35;
+  color: white;
+}
+
+.active{
+  background-color: #e83b35;
+}
+
+@media (max-width: 768px){
+  .navli{
+    display: none;
+  }
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-color-e83b35 theme-skin-light"><!-- red: e83b35 blue: 3f51b5 dgreen: 07cb79 lgreen: 8dc24c lblue: b4e1dc lb:c7ccea-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<title>Vivek Ghanchi</title>
+	<!-- Google Fonts-->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+	<!-- Icon Fonts -->
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="colors/theme-color.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+</head>
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBtPy9ew5ysyRWSJBHiFcUsQp8QWNtSNfE",
+    authDomain: "vivek-ghanchi.firebaseapp.com",
+    databaseURL: "https://vivek-ghanchi.firebaseio.com",
+    projectId: "vivek-ghanchi",
+    storageBucket: "vivek-ghanchi.appspot.com",
+    messagingSenderId: "593068089123"
+  };
+  firebase.initializeApp(config);
+</script>
+<script>
+function activetab(evt) {
+	navli = document.getElementsByClassName('navli');
+	for (i = 0 ;i < navli.length; i++){
+		navli[i].className = navli[i].className.replace("active", "");
+	}
+	evt.currentTarget.className += " active";
+}
+</script>
+
+<body>
+    <div class="wrapper">
+			<ul class="navul">
+				<li class="navlihome"><a href="#home">Home</a></li>
+				<li class="navli" onclick="activetab(event);"><a href="#education">Education <span></span></a></li>
+				<li class="navli" onclick="activetab(event);"><a href="#experience">Projects</a></li>
+				<li class="navli" onclick="activetab(event);"><a href="#skills">Programming Skills</a></li>
+				<li class="navli active" onclick="activetab(event);"><a href="#about">About</a></li>
+			</ul>
+
+        <div class="content">
+            <div class="container">
+
+				<!-- START: PAGE CONTENT -->
+				<section id="about" class="section section-about">
+					<div class="animate-up">
+						<div class="section-box">
+							<div class="profile">
+								<div class="row">
+									<div class="col-xs-5">
+										<div class="profile-photo"><img src="img\uploads\vivek.jpg" alt="Vivek Ghanchi"/></div>
+									</div>
+									<div class="col-xs-7">
+										<div class="profile-info">
+											<div class="profile-preword"><span>Hello</span></div>
+											<h1 class="profile-title"><span>I'm</span> Vivek Ghanchi</h1>
+											<h2 class="profile-position"> Software Developer</h2></div>
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title">Age</strong>
+                                                    <span class="cont">20</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title">Date Of Birth</strong>
+                                                    <span class="cont">August 7, 1996</span>
+                                                </li>
+												<li class="clearfix">
+                                                    <strong class="title">Address</strong>
+                                                    <span class="cont">Sirohi,Rajasthan,India</span>
+                                                </li>
+
+												<li class="clearfix">
+                                                    <strong class="title"><span class="button">E-mail</span></strong>
+                                                    <span class="cont">vivekghanchi12345@gmail.com</span>
+                                                </li>
+                                            </ul>
+									</div>
+								</div>
+							</div>
+							<div class="profile-social">
+								<ul class="social">
+									<li><a href="https://www.facebook.com/vivekghanchi7" target="_blank"><img src="img/facebook.png" height="20px" width="20px" class="rsicon rsicon-facebook"/></a></li>
+									<li><a href="https://github.com/vivekghanchi" target="_blank"><img src="img/github.png" height="20px" width="20px" class="rsicon rsicon-google-plus"/></a></li>
+									<li><a href="https://www.linkedin.com/in/vivek-ghanchi-455945b2/" target="_blank"><img src="img/linkedin.png" height="20px" width="20px" class="rsicon rsicon-linkedin"/></a></li>
+									<li><a href="https://www.instagram.com/vivek_gehlot7/" target="_blank"><img src="img/instagram.jpg" height="20px" width="20px" class="rsicon rsicon-instagram"/></a></li>
+									<li><a href="https://www.hackerrank.com/vivekghanchi" target="_blank"><img src="img/hackerank.jpg" height="20px" width="20px" class="rsicon rsicon-hackerank"/></a></li>
+								</ul>
+							</div>
+						</div>
+
+                        <div class="section-txt-btn">
+                            <p><a class="btn btn-lg btn-border ripple" target="_blank" href="https://drive.google.com/file/d/0B1COdCfjhycHSXR4RFJrR3Ffc3c/view?usp=sharing">Download Resume</a></p>
+                            <p style="color:grey;"> Currently a 7th semester (B. Tech, Computer Science) student at Techno India NJR Institute Of Technology, Udaipur. I love coding and building things, shaping it to real existence.<br>When i am not sitting behind my system, I enjoy nature, Cricket , keen to learn new technology.</p>
+                        </div>
+					</div>
+				</section><!-- #about -->
+
+				<section id="skills" class="section section-skills">
+					<div class="animate-up">
+						<h2 class="section-title">Programming languages Skills</h2>
+						<div class="section-box">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="progress-bar">
+										<div class="bar-data">
+											<span class="bar-title">C/C++</span>
+											<span class="bar-value">80%</span>
+										</div>
+										<div class="bar-line">
+											<span class="bar-fill" style="width:80%;"></span>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="progress-bar">
+										<div class="bar-data">
+											<span class="bar-title">Python</span>
+											<span class="bar-value">60%</span>
+										</div>
+										<div class="bar-line">
+											<span class="bar-fill" style="width:60%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="progress-bar">
+										<div class="bar-data">
+											<span class="bar-title">advanced java</span>
+											<span class="bar-value">50%</span>
+										</div>
+										<div class="bar-line">
+											<span class="bar-fill" style="width:50%;"></span>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="progress-bar">
+										<div class="bar-data">
+											<span class="bar-title">Core Java</span>
+											<span class="bar-value">80%</span>
+										</div>
+										<div class="bar-line">
+											<span class="bar-fill" style="width:40%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</br>
+						<div class="animate-up">
+							<h2 class="section-title">Web Development Skills</h2>
+							<div class="section-box">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="progress-bar">
+										<div class="bar-data">
+											<span class="bar-title">PHP & MySQL</span>
+											<span class="bar-value">60%</span>
+										</div>
+										<div class="bar-line">
+											<span class="bar-fill" style="width:60%;"></span>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="progress-bar">
+										<div class="bar-data">
+											<span class="bar-title">HTML & CSS</span>
+											<span class="bar-value">65%</span>
+										</div>
+										<div class="bar-line">
+											<span class="bar-fill" style="width:65%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="progress-bar">
+										<div class="bar-data">
+											<span class="bar-title">JavaScript</span>
+											<span class="bar-value">70%</span>
+										</div>
+										<div class="bar-line">
+											<span class="bar-fill" style="width:70%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+
+				</br>
+					<div class="animate-up">
+						<h2 class="section-title">Other Applications</h2>
+						<div class="section-box">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="progress-bar">
+									<div class="bar-data">
+										<span class="bar-title">Photoshop</span>
+										<span class="bar-value">70%</span>
+									</div>
+									<div class="bar-line">
+										<span class="bar-fill" style="width:70%;"></span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="progress-bar">
+									<div class="bar-data">
+										<span class="bar-title">MS Office</span>
+										<span class="bar-value">75%</span>
+									</div>
+									<div class="bar-line">
+										<span class="bar-fill" style="width:75%;"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="progress-bar">
+									<div class="bar-data">
+										<span class="bar-title">Heroku</span>
+										<span class="bar-value">60%</span>
+									</div>
+									<div class="bar-line">
+										<span class="bar-fill" style="width:60%;"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<section id="text-section" class="section section-text">
+					<div class="animate-up">
+						<h2 class="section-title">Other Skills</h2>
+						<div class="section-box"style="background-color:#26262b;color:grey;	border-style:solid;border-width:5px 0 0;border-color:#e83b35;">
+							<p><b>
+								<li> Anaconda</li>
+								<li> WebScrapping</li>
+								<li> Automating tasks using python</li>
+								<li> Linux</li>
+								<li> Shell Programming</li></b>
+							</p>
+						</div>
+					</div>
+				</section><!-- #text-section -->
+				</section><!-- #skills -->
+
+				<section id="experience" class="section section-experience">
+					<div class="animate-up">
+						<h2 class="section-title">Projects</h2>
+
+						<div class="timeline">
+							<div class="timeline-bar"></div>
+							<div class="timeline-inner clearfix">
+                                <div class="timeline-box timeline-box-left">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date">Oct 2016</div>
+                                        <h3>NET-FORM</h3>
+																				<h4>Node.js, Javascript, HTML, CSS ,Php,</h4>
+                                        <p>It is an online version of net form .This was for the our institute so they student easily can apply  for there Login and password for  net access  and can access the net through it easily</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-right">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-left">
+                                        <span class="arrow"></span>
+                                        <div class="date">August 2016</div>
+                                        <h3>Valgrind</h3>
+                                        <h4>c</h4>
+                                        <p>Developed valgrind in c  for windows.Valgrind is an instrumentation framework for building dynamic analysis tools. There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile your programs in detail</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-left">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date">December 2014</div>
+                                        <h3>Pre-Processor</h3>
+																				<h4>C</h4>
+                                        <p>Developed our own c pre-processor which generally includes marcos, Heador file inlcusion,Conditional Compilation.</p>
+                                    </div>
+                                </div>
+									</div>
+								</div>
+							</div>
+				</section><!-- #experience -->
+
+				<section id="education" class="section section-education">
+					<div class="animate-up">
+						<h2 class="section-title">Education</h2>
+						<div class="timeline">
+							<div class="timeline-bar"></div>
+							<div class="timeline-inner clearfix">
+
+                                <div class="timeline-box timeline-box-compact timeline-box-left">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2014-Present</span></div>
+                                        <h3>B. Tech in Computer Science</h3>
+                                        <h4>Rajasthan Technical University</h4>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-compact timeline-box-right">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-left">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2014</span></div>
+                                        <h3>Senior Secondary</h3>
+                                        <h4>C.B.S.E</h4>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-compact timeline-box-left">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2012</span></div>
+                                        <h3>Secondary</h3>
+                                        <h4>C.B.S.E</h4>
+                                    </div>
+                                </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section><!-- #education -->
+
+
+				<section id="text-section" class="section section-text">
+					<div class="animate-up animated">
+						<h2 class="section-title">Hobbies And Interest</h2>
+						<div class="section-box"style="background-color:#26262b;color:grey;	border-style:solid;border-width:5px 0 0;border-color:#e83b35;">
+							<p><b>
+							<li> Learning new technologies</li>
+							<li> Watching Movies(Sc-fi),English TV series(mystery,action,anime)</li>
+							<li> Coding</li>
+							<li> Bike Riding</li>
+							<li> Playing Games(LAN base, Online, Free Roam), Basketball, Cricket</li></b>
+							</p>
+						</div>
+					</div>
+				</section><!-- #text-section -->
+
+				<section id="text-section" class="section section-text">
+					<div class="animate-up">
+						<h2 class="section-title">Why should you Hire Me?</h2>
+						<div class="section-box"style="background-color:#26262b;color:grey;	border-style:solid;border-width:5px 0 0;border-color:#e83b35;">
+							<p>
+								<b>
+									<li>If you are looking for someone who DO.</li>
+									<li>If you are looking for someone who likes to work as a team.</li>
+									<li>If you are looking for someone eager to learn new technology.</li>
+									<li>If you are looking for someone who loves solving challenges.</li>
+								</b>
+							</p>
+						</div>
+					</div>
+				</section><!-- #interests -->
+
+
+			<!-- END: PAGE CONTENT -->
+
+            </div><!-- .container -->
+        </div><!-- .content -->
+		<footer class="footer">
+            <div class="footer-social">
+                <ul class="social">
+					<li>E-mail: vivekghanchi12345@gmail.com</li>
+				</ul>
+            </div>
+        </footer><!-- .footer -->
+    </div><!-- .wrapper -->
+
+    <!-- Scripts -->
+</body>
+</html>
