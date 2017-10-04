@@ -4826,3 +4826,36 @@ body {
   border: 1px solid #525458; }
 .no-boxshadow.theme-skin-dark .timeline-box-inner {
   border: 1px solid #525458 !important; }
+
+
+.redheart {
+  color: #ff0000;
+  animation: heartbeat 3s infinite;
+  position: absolute;
+}
+
+@keyframes heartbeat {
+  0% {
+    font-size: 1em;
+  }
+
+  25% {
+    font-size: .75em;
+  }
+
+  50% {
+    font-size: 1em;
+  }
+
+  75% {
+    font-size: .75em;
+  }
+
+  100% {
+    font-size: 1em;
+  }
+}
+
+.heart {
+    float: center;
+  }
