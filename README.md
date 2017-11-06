@@ -10,6 +10,6 @@ This portfolio contains my skill , projects , education details etc.You can down
 
 * Click [here](https://vivekghanchi.github.io) to See Website.
 
-## Snapshots of Website
+## Snapshot of Website
 
 ![Main Page](/images/main-page.png?raw=true "Home Page")
