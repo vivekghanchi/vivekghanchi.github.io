@@ -1,7 +1,8 @@
 Vivek Ghanchi Portfolio
 =======================
 
-I have built this portfolio using
+##  Technology Stack
+
 * HTML5
 * CSS3
 * Bootstrap
