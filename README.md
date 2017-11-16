@@ -1,7 +1,7 @@
 Vivek Ghanchi Portfolio
 =======================
 
-I have bulit this portfolio using
+I have built this portfolio using
 * HTML5
 * CSS3
 * Bootstrap
