@@ -14,3 +14,7 @@ This portfolio contains my skill , projects , education details etc.You can down
 ## Snapshot of Website
 
 ![Main Page](/images/main-page.png?raw=true "Home Page")
+
+# Developer
+
+##### [Vivek Ghanchi](https://github.com/vivekghanchi)
