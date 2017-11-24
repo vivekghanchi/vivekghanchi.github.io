@@ -4,7 +4,7 @@ Vivek Ghanchi Portfolio
 ##  Technology Stack
 
 * HTML
-* CSS3
+* CSS
 * Bootstrap
 
 This portfolio contains my skills, projects, education details.You can download this project from my github repo by clicking [here](https://github.com/vivekghanchi/vivekghanchi.github.io).
