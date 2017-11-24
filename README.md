@@ -3,7 +3,7 @@ Vivek Ghanchi Portfolio
 
 ##  Technology Stack
 
-* HTML5
+* HTML
 * CSS3
 * Bootstrap
 
