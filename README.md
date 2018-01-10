@@ -7,7 +7,7 @@ Vivek Ghanchi Portfolio
 * CSS
 * Bootstrap
 
-This portfolio contains my skills, projects, education details.You can download this project from my github repo by clicking [here](https://github.com/vivekghanchi/vivekghanchi.github.io).
+This portfolio contains my skills, projects, education details.
 
 * Click [here](https://vivekghanchi.github.io) to See Website.
 
