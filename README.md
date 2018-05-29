@@ -5,6 +5,7 @@ Vivek Ghanchi Portfolio
 
 * HTML
 * CSS
+* JavaScript
 * Bootstrap
 
 This portfolio contains my Skills, Projects, Education Details.
