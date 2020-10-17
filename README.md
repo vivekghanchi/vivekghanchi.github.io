@@ -8,9 +8,9 @@ Vivek Ghanchi Portfolio
 * JavaScript
 * Bootstrap
 
-This website shows my Skills, Projects, Education Details.
+This website shows my skills, projects, education details.
 
-* Click [here](https://vivekghanchi.github.io) to See Website.
+* Click [here](https://vivekghanchi.github.io) to see website.
 
 
 # Developer
